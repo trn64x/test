@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts//poppins.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+#Portfolio{
+    min-width:0;
+    width:calc(100vw - 15px);
+
+}
+.pages{
+    display:flex;
+    height:100px;
+    width:100%;
+    justify-self: center;
+    align-items: center;
+    font-size:40px;
+    
+}
+
+.pages button {
+    margin-left:20px;
+    margin-right:20px;
+    width:125px;
+    height:75px;
+    background:rgb(20,20,20);
+    color:white;
+    border-radius:10px;
+    border:none;
+
+}
+.buttons{
+    margin-top:100px;
+    height:50px;
+    width:100%;
+}
+.flex{
+    margin-top:50px;
+    margin-bottom: 50px;;
+    min-width:0;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    display:flex;
+    flex-direction: row;
+    font-family:"poppins";
+    width:45%;
+    height:300px;
+    padding-left:10px;
+    margin:10px;
+    background: rgba( 20,20,20, 1 );
+
+border-radius: 10px;
+border: 1px solid #313131;
+}
+.l{
+    width:50%;
+}
+.r{width:50%;
+height:100%;
+display:flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+}
+.l p{
+    font-size:20px;
+}
+.r button{
+    background:#000;
+    border:none;
+    border-radius:15px;
+}
+.item:hover{
+    
+}
+.item img{
+    margin-top:20px;
+    padding:0 !important;
+    width:100%;
+    max-height:auto;
+}
+input{
+    border:none;
+    border-radius:10px;
+    margin:5px;
+    background:rgb(20,20,20);
+    color:White;
+
+    width:25%;
+    height:35px;
+    font-size:20px;
+    background: rgba( 20,20,20, 1 );
+    box-shadow: 0 8px 32px 0 rgb(0, 77, 45);
+    border-radius: 10px;
+    border: 1px solid rgb(119, 119, 119);
+}
+select{
+    color:white;
+    border:none;
+    border-radius:10px;
+    margin:2px;
+    height:35px;
+    width:10%;
+    background: rgba( 20,20,20, 1 );
+    box-shadow: 0 8px 32px 0 rgb(0, 77, 45);
+    border-radius: 10px;
+    border: 1px solid rgb(119, 119, 119);
+}
+option{
+    color:white;
+}
+@media only screen and (max-width: 1000px){
+    select, input{
+        width:40%;
+    }
+    .l{
+        height:80%;
+    }
+    .r{
+        height:20%;
+    }
+    .item{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width:100%;
+    }
+    
+}
+@media only screen and (max-width:450px){
+#a2,#a3{
+    display: none;
+}
+.r{
+    height:100px;
+
+}
+.l{
+    height:200px;
+}
+}
