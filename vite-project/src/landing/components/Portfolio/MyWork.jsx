@@ -28,7 +28,6 @@ export default function MyWork() {
             link: "https://github.com/trn64x/cardGame"
         }
     ];
-
     const [search, setSearch] = useState("");
     const [sortOrder, setSortOrder] = useState("Newest");
     // Filtering projects based on search
